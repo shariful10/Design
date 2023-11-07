@@ -1,12 +1,15 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import logo from "@/images/logo.svg";
 import Image from "next/image";
 import { BiLogIn } from "react-icons/bi";
 import { LuUserPlus } from "react-icons/lu";
 
 const Navbar = () => {
+   const [first, setfirst] = useState<Boolean>(false);
+
 	return (
-		<div className="w-[95%] mx-auto py-3">
+		<div className="w-[95%] mx-auto py-3 bg-white">
 			<div className="flex justify-between items-center">
 				<div className="flex items-center gap-4">
 					<Image src={logo} alt="" />
