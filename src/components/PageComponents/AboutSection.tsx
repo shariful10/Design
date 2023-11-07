@@ -27,7 +27,7 @@ const AboutSection = () => {
 											</p>
 										</div>
 									</div>
-									<Image src={linkedin} className="h-6 w-6" alt="" />
+									<Image src={linkedin} className="h-6 w-6 cursor-pointer" alt="" />
 								</div>
 								<p className="text-[15px] font-medium mt-3">
 									The courses which have &quot;grokking&quot; before
@@ -57,7 +57,7 @@ const AboutSection = () => {
 											</p>
 										</div>
 									</div>
-									<Image src={linkedin} className="h-6 w-6" alt="" />
+									<Image src={linkedin} className="h-6 w-6 cursor-pointer" alt="" />
 								</div>
 								<p className="text-[15px] font-medium mt-3">
 									The courses which have &quot;grokking&quot; before
@@ -87,7 +87,7 @@ const AboutSection = () => {
 											</p>
 										</div>
 									</div>
-									<Image src={linkedin} className="h-6 w-6" alt="" />
+									<Image src={linkedin} className="h-6 w-6 cursor-pointer" alt="" />
 								</div>
 								<p className="text-[15px] font-medium mt-3">
 									The courses which have &quot;grokking&quot; before
@@ -117,7 +117,7 @@ const AboutSection = () => {
 											</p>
 										</div>
 									</div>
-									<Image src={linkedin} className="h-6 w-6" alt="" />
+									<Image src={linkedin} className="h-6 w-6 cursor-pointer" alt="" />
 								</div>
 								<p className="text-[15px] font-medium mt-3">
 									The courses which have &quot;grokking&quot; before
