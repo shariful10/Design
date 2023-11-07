@@ -15,6 +15,10 @@ const config: Config = {
 			backgroundColor: {
 				bannerBg: "#152238",
 			},
+			fontSize: {
+				h2: "26px",
+            textSize: "15px",
+			},
 		},
 	},
 	plugins: [],

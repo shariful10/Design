@@ -7,7 +7,7 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 
 const Banner = () => {
 	return (
-		<div className="bg-bannerBg py-14">
+		<section className="bg-bannerBg py-14">
 			<div className="w-full md:w-[60%] mx-auto px-4 md:px-0">
 				<div className="grid md:grid-cols-3">
 					<div className="col-span-2 text-white">
@@ -43,7 +43,7 @@ const Banner = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
