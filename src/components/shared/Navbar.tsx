@@ -3,10 +3,15 @@ import React, { useState } from "react";
 import logo from "@/images/logo.svg";
 import Image from "next/image";
 import { HiMenu } from "react-icons/hi";
+import { ImUsers } from "react-icons/im";
 import { BiLogIn } from "react-icons/bi";
 import { LuUserPlus } from "react-icons/lu";
 import { AiOutlineClose } from "react-icons/ai";
+import { PiUsersThreeFill } from "react-icons/pi";
 import useMediaQuery from "../hooks/useMediaQuery";
+import { BiSolidDollarCircle } from "react-icons/bi";
+import { MdCollectionsBookmark } from "react-icons/md";
+import { FaClipboardList, FaPhoneAlt } from "react-icons/fa";
 
 const Navbar = () => {
 	const [open, setOpen] = useState<Boolean>(false);
@@ -65,36 +70,44 @@ const Navbar = () => {
 						</button>
 					</div>
 					{/* <==<<=== Menu Items ===>>==> */}
-					<div className="cursor-pointer flex flex-col text-black gap-5">
-						<p className="hover:text-orange duration-300 px-4">
+					<div className="cursor-pointer flex flex-col text-primary gap-5">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <MdCollectionsBookmark className="w-6 h-6" />
 							Cources
 						</p>
                   <hr />
-						<p className="hover:text-orange duration-300 px-4">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <BiSolidDollarCircle className="w-6 h-6" />
 							Pricing
 						</p>
                   <hr />
-						<p className="hover:text-orange duration-300 px-4">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <ImUsers className="w-6 h-6" />
 							Mock Interviews
 						</p>
                   <hr />
-						<p className="hover:text-orange duration-300 px-4">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <PiUsersThreeFill className="w-6 h-6" />
 							Interview Bootcamp
 						</p>
                   <hr />
-						<p className="hover:text-orange duration-300 px-4">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <FaClipboardList className="w-6 h-6" />
 							Guides
 						</p>
                   <hr />
-						<p className="hover:text-orange duration-300 px-4">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <FaPhoneAlt className="w-6 h-6" />
                      Contact Us
 						</p>
                   <hr />
-						<p className="hover:text-orange duration-300 px-4">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <BiLogIn className="w-6 h-6" />
                      Login
 						</p>
                   <hr />
-						<p className="hover:text-orange duration-300 px-4">
+						<p className="flex gap-2 hover:text-orange duration-300 px-4">
+                     <LuUserPlus className="w-6 h-6" />
 							Sign Up
 						</p>
 					</div>
