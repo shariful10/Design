@@ -19,8 +19,8 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div className="w-[95%] mx-auto py-3 bg-white">
-				<div className="flex justify-between items-center">
+			<div className="bg-white fixed z-40 w-full">
+				<div className="flex justify-between items-center w-[95%] mx-auto py-3 ">
 					<div className="flex items-center gap-4">
 						<Image src={logo} alt="" />
 						<div className="cursor-pointer md:flex gap-5 text-primary hidden">
@@ -72,42 +72,42 @@ const Navbar = () => {
 					{/* <==<<=== Menu Items ===>>==> */}
 					<div className="cursor-pointer flex flex-col text-primary gap-5">
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <MdCollectionsBookmark className="w-6 h-6" />
+							<MdCollectionsBookmark className="w-6 h-6" />
 							Cources
 						</p>
-                  <hr />
+						<hr />
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <BiSolidDollarCircle className="w-6 h-6" />
+							<BiSolidDollarCircle className="w-6 h-6" />
 							Pricing
 						</p>
-                  <hr />
+						<hr />
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <ImUsers className="w-6 h-6" />
+							<ImUsers className="w-6 h-6" />
 							Mock Interviews
 						</p>
-                  <hr />
+						<hr />
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <PiUsersThreeFill className="w-6 h-6" />
+							<PiUsersThreeFill className="w-6 h-6" />
 							Interview Bootcamp
 						</p>
-                  <hr />
+						<hr />
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <FaClipboardList className="w-6 h-6" />
+							<FaClipboardList className="w-6 h-6" />
 							Guides
 						</p>
-                  <hr />
+						<hr />
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <FaPhoneAlt className="w-6 h-6" />
-                     Contact Us
+							<FaPhoneAlt className="w-6 h-6" />
+							Contact Us
 						</p>
-                  <hr />
+						<hr />
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <BiLogIn className="w-6 h-6" />
-                     Login
+							<BiLogIn className="w-6 h-6" />
+							Login
 						</p>
-                  <hr />
+						<hr />
 						<p className="flex gap-2 hover:text-orange duration-300 px-4">
-                     <LuUserPlus className="w-6 h-6" />
+							<LuUserPlus className="w-6 h-6" />
 							Sign Up
 						</p>
 					</div>
