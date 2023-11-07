@@ -19,7 +19,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div className="bg-white fixed z-40 w-full">
+			<div className="bg-white fixed z-40 w-full shadow">
 				<div className="flex justify-between items-center w-[95%] mx-auto py-3 ">
 					<div className="flex items-center gap-4">
 						<Image src={logo} alt="" />

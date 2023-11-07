@@ -24,7 +24,7 @@ const CourseOverview = () => {
 	}, []);
 
 	return (
-		<section className="w-full md:w-[60%] mx-auto px-4 md:px-0 py-10 relative">
+		<section className="w-full md:w-[60%] mx-auto px-4 md:px-0 py-10">
 			<div className="grid md:grid-cols-3 gap-6">
 				<div className="md:col-span-2">
 					<h1 className="text-h2 leading-[39px] font-bold">
@@ -56,7 +56,7 @@ const CourseOverview = () => {
 						interviews.
 					</p>
 				</div>
-				<div className={`md:col-span-1 shadow rounded-b-lg bg-white rounded-t-lg md:fixed md:max-w-[400px]  md:right-[320px] ${scrolling ? "md:top-[61px]" : "md:top-[170px]"}`}>
+				<div className={`md:col-span-1 shadow rounded-b-lg bg-white rounded-t-lg md:fixed md:max-w-[400px] md:right-[320px] ${scrolling ? "md:top-[61px]" : "md:top-[170px]"}`}>
 					<Image src={image} className="rounded-t-lg" alt="image" />
 					<div className="px-3 pb-3 pt-2">
 						<div className="border rounded-lg p-3">
