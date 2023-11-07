@@ -13,7 +13,7 @@ const Navbar = () => {
 			<div className="flex justify-between items-center">
 				<div className="flex items-center gap-4">
 					<Image src={logo} alt="" />
-					<div className="cursor-pointer flex gap-5 text-primary">
+					<div className="cursor-pointer md:flex gap-5 text-primary hidden">
 						<p className="hover:text-orange duration-300">Cources</p>
 						<p className="hover:text-orange duration-300">Pricing</p>
 						<p className="hover:text-orange duration-300">Mock Interviews</p>
@@ -21,7 +21,7 @@ const Navbar = () => {
 						<p className="hover:text-orange duration-300">Guides</p>
 					</div>
 				</div>
-				<div className="cursor-pointer flex gap-5">
+				<div className="cursor-pointer hidden md:flex gap-5">
 					<p className="text-primary hover:text-orange duration-300">Contact Us</p>
 					<p className="text-primary flex gap-1 hover:text-orange duration-300">
 						<BiLogIn className="w-6 h-6" />
