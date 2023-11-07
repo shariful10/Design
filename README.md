@@ -1,2 +1,2 @@
-<img align="left" width="350" src="/src/images/logo.svg)" alt="Coding gif" />
+<img align="left" width="350" src="/src/images/logo.svg" alt="" />
 # Design Guru
