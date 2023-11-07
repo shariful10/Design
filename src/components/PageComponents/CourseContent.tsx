@@ -7,7 +7,7 @@ const CourseContent = () => {
 	const [openIntro, setOpenIntro] = useState<Number>(0);
 
 	return (
-		<section className="w-full md:w-[60%] mx-auto px-4 md:px-0 pb-10">
+		<section className="w-full md:w-[60%] mx-auto px-4 md:px-0">
 			<div className="grid md:grid-cols-3">
 				<div className="col-span-2">
 					<div className="flex justify-between items-center">
