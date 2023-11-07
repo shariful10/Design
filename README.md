@@ -1,2 +1,3 @@
-<img align="left" width="350" src="/src/images/logo.svg" alt="" /> <br />
+<img align="left" width="350" src="/src/images/logo.svg" alt="" /> 
+<br />
 # Design Guru

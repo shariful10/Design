@@ -14,20 +14,20 @@ const Navbar = () => {
 				<div className="flex items-center gap-4">
 					<Image src={logo} alt="" />
 					<div className="cursor-pointer flex gap-5 text-primary">
-						<p className="hover:text-[#ff6700] duration-300">Cources</p>
-						<p className="hover:text-[#ff6700] duration-300">Pricing</p>
-						<p className="hover:text-[#ff6700] duration-300">Mock Interviews</p>
-						<p className="hover:text-[#ff6700] duration-300">Interview Bootcamp</p>
-						<p className="hover:text-[#ff6700] duration-300">Guides</p>
+						<p className="hover:text-orange duration-300">Cources</p>
+						<p className="hover:text-orange duration-300">Pricing</p>
+						<p className="hover:text-orange duration-300">Mock Interviews</p>
+						<p className="hover:text-orange duration-300">Interview Bootcamp</p>
+						<p className="hover:text-orange duration-300">Guides</p>
 					</div>
 				</div>
 				<div className="cursor-pointer flex gap-5">
-					<p className="text-primary hover:text-[#ff6700] duration-300">Contact Us</p>
-					<p className="text-primary flex gap-1 hover:text-[#ff6700] duration-300">
+					<p className="text-primary hover:text-orange duration-300">Contact Us</p>
+					<p className="text-primary flex gap-1 hover:text-orange duration-300">
 						<BiLogIn className="w-6 h-6" />
 						Login in
 					</p>
-					<p className="text-primary flex gap-1 hover:text-[#ff6700] duration-300">
+					<p className="text-primary flex gap-1 hover:text-orange duration-300">
 						<LuUserPlus className="w-6 h-6" />
 						Sign Up
 					</p>

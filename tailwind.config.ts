@@ -9,7 +9,11 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
+				orange: "#ff6700",
 				primary: "#004e98",
+			},
+			backgroundColor: {
+				bannerBg: "#152238",
 			},
 		},
 	},
