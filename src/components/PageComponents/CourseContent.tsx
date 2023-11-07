@@ -26,7 +26,7 @@ const CourseContent = () => {
 									1. Introduction
 								</h4>
 								<span
-									onClick={() => setOpenIntro(1)}
+									onClick={() => setOpenIntro(openIntro === 1 ? 0 : 1)}
 									className="cursor-pointer flex items-center"
 								>
 									<p className="text-primary">1 lesson</p>
@@ -48,7 +48,7 @@ const CourseContent = () => {
 									2. Pattern 1: 0/1 Knapsack
 								</h4>
 								<span
-									onClick={() => setOpenIntro(2)}
+									onClick={() => setOpenIntro(openIntro === 2 ? 0 : 2)}
 									className="cursor-pointer flex items-center"
 								>
 									<p className="text-primary">13 lesson</p>
@@ -144,7 +144,7 @@ const CourseContent = () => {
 									3. Pattern 1: 0/1 Knapsack
 								</h4>
 								<span
-									onClick={() => setOpenIntro(3)}
+									onClick={() => setOpenIntro(openIntro === 3 ? 0 : 3)}
 									className="cursor-pointer flex items-center"
 								>
 									<p className="text-primary">10 lesson</p>
@@ -222,7 +222,7 @@ const CourseContent = () => {
                            4. Pattern 2: Unbounded Knapsack
 								</h4>
 								<span
-									onClick={() => setOpenIntro(4)}
+									onClick={() => setOpenIntro(openIntro === 4 ? 0 : 4)}
 									className="cursor-pointer flex items-center"
 								>
 									<p className="text-primary">12 lesson</p>
@@ -312,7 +312,7 @@ const CourseContent = () => {
                            5. Pattern 4: Palindromic Subsequence
 								</h4>
 								<span
-									onClick={() => setOpenIntro(5)}
+									onClick={() => setOpenIntro(openIntro === 5 ? 0 : 5)}
 									className="cursor-pointer flex items-center"
 								>
 									<p className="text-primary">10 lesson</p>
@@ -390,7 +390,7 @@ const CourseContent = () => {
                            6. Pattern 5: Longest Common Substring
 								</h4>
 								<span
-									onClick={() => setOpenIntro(6)}
+									onClick={() => setOpenIntro(openIntro === 6 ? 0 : 6)}
 									className="cursor-pointer flex items-center"
 								>
 									<p className="text-primary">26 lesson</p>
@@ -558,13 +558,13 @@ const CourseContent = () => {
 								</>
 							)}
 						</div>
-                  <div className="border-b p-4">
+                  <div className="p-4">
 							<div className="flex justify-between items-center">
 								<h4 className="text-[17px] font-bold text-primary">
 									7. Appendix
 								</h4>
 								<span
-									onClick={() => setOpenIntro(7)}
+									onClick={() => setOpenIntro(openIntro === 7 ? 0 : 7)}
 									className="cursor-pointer flex items-center"
 								>
 									<p className="text-primary">1 lesson</p>
@@ -581,6 +581,7 @@ const CourseContent = () => {
 							)}
 						</div>
 					</div>
+               <div className="my-10"><hr /></div>
 				</div>
 			</div>
 		</section>
