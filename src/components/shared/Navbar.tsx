@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
-import logo from "@/images/logo.svg";
 import Image from "next/image";
+import { useState } from "react";
+import logo from "@/images/logo.svg";
 import { HiMenu } from "react-icons/hi";
 import { ImUsers } from "react-icons/im";
 import { BiLogIn } from "react-icons/bi";
