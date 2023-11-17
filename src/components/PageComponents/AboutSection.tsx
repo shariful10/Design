@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image from "../../images/profileAvatar.webp";
 import linkedin from "../../images/linkedin.png";
+import image from "../../images/profileAvatar.webp";
 
 const AboutSection = () => {
 	return (
