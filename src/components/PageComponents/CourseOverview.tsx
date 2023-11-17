@@ -1,8 +1,8 @@
 "use client"
 import Image from "next/image";
 import {useState, useEffect} from "react"
-import {PiCertificateBold} from "react-icons/pi"
 import image from "../../images/sidebar.webp";
+import {PiCertificateBold} from "react-icons/pi"
 
 const CourseOverview = () => {
    const [scrolling, setScrolling] = useState<Boolean>(false);
