@@ -1,14 +1,14 @@
 import {
-   FaTwitter,
+	FaTwitter,
 	FaYoutube,
-   FaLinkedin,
+	FaLinkedin,
 	FaFacebookSquare,
 } from "react-icons/fa";
 import Image from "next/image";
 import footerImg from "../../images/logo-foooter.svg";
 
 const Footer = () => {
-   const yaer = new Date().getFullYear()
+	const yaer = new Date().getFullYear();
 
 	return (
 		<footer className="bg-bannerBg py-10">
@@ -88,7 +88,9 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-            <p className="text-sm text-white font-light text-center mt-5">Copyright © {yaer} Designgurus, Inc. All rights reserved.</p>
+				<p className="text-sm text-white font-light text-center mt-5">
+					Copyright © {yaer} Designgurus, Inc. All rights reserved.
+				</p>
 			</div>
 		</footer>
 	);
